@@ -11,9 +11,9 @@ public class analisaNumeros {
             int contaImpares = 0;
             int contaPositivos = 0;
             int contaNegativos = 0;
-
             Scanner leitor = new Scanner(System.in);
             for (int i = 1 ; i <= 5 ; i++) {
+            	System.out.print("Informe o " + i + "º número: ");
                 int retornado = leitor.nextInt();
             	if (retornado % 2 == 0)
                     contaPares++;
